@@ -1,20 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Items from './Items';
+import Instamart from './Instamart';
+import City from './City';
+import Grocery from './Grocery';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+  <Items/>
+  <Instamart/>
+  <City></City>
+  <Grocery/>
+  <Footer></Footer>
+  </>
   );
 }
 
