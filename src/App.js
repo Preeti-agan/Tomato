@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Items from './Items';
+import Instamart from './Instamart';
+import City from './City';
+import Grocery from './Grocery';
+import Footer from './Footer';
 import Home from './Home/Home';
 import Services from './Services/Services';
 import About from './About/About';
@@ -10,6 +15,11 @@ function App() {
     <Home/>
     <Services/>
     <About/>
+    <Items/>
+    <Instamart/>
+    <City></City>
+    <Grocery/>
+    <Footer></Footer>
     </>
   );
 }

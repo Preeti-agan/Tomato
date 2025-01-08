@@ -83,13 +83,21 @@ font-family: "Lilita One", serif;
 }
 /* section2 css */
 .section2{
-    display:flex;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.imgleft {
+
+}
+.imgRight {
+
 }
 .order{
     color:#FFFF;
     letter-spacing:-0.3px;
     letter-height:56px;
-    font-size:3rem;
+    font-size:1rem;
     padding-top:24px;
     text-align:center;
 }
