@@ -5,16 +5,22 @@ import Instamart from './Instamart';
 import City from './City';
 import Grocery from './Grocery';
 import Footer from './Footer';
+import Home from './Home/Home';
+import Services from './Services/Services';
+import About from './About/About';
 
 function App() {
   return (
     <>
-  <Items/>
-  <Instamart/>
-  <City></City>
-  <Grocery/>
-  <Footer></Footer>
-  </>
+    <Home/>
+    <Services/>
+    <About/>
+    <Items/>
+    <Instamart/>
+    <City></City>
+    <Grocery/>
+    <Footer></Footer>
+    </>
   );
 }
 
