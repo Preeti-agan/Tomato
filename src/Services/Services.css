@@ -1,0 +1,128 @@
+
+.body{
+    overflow-x: hidden;
+}
+.discover{
+    display:flex;
+    justify-content:space-evenly;
+   
+   
+}
+.onee{
+    border:1px solid rgb(221, 212, 212);
+    border-radius:13px;
+    /* padding-bottom:5px; */
+}
+.twoo{
+    border:1px solid rgb(221, 212, 212);
+    border-radius:13px;
+    padding-bottom:5px;
+    margin-top:-3px;
+}
+.threee{
+    border:1px solid rgb(221, 212, 212);
+    border-radius:13px;
+    padding-bottom:5px;
+}
+.container{
+    /* margin-left:140px; */
+}
+.body{
+    background-color: white;
+}
+.dd{
+    font-size:1.4rem;
+   margin-left:70px;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.part2{
+    display:flex;
+}
+.con{
+   font-size:1rem;
+   color:#02060C99; 
+}
+.rs{
+    font-size:1rem;
+    color:#02060C99;  
+}
+.sector{
+    font-size:1rem;
+   color:#02060C99; 
+}
+.km{
+    font-size:1rem;
+   color:#02060C99; 
+}
+.part4{
+    display:flex;
+    background-color:#1BA672;
+    border-radius:6px;
+    color:#ffff;
+    font-weight:800;
+    font-size:0.8rem;
+    padding-bottom:2px;
+    margin-left:7px;
+    margin-right:7px;
+    margin-bottom:8px;
+}
+.flat1{
+margin-left:65px;
+padding-top:8px;
+font-size:0.7rem;
+}
+.part3{
+    color:#02060C99;
+}
+.flatt{
+    margin-right:5px;
+    padding-top:7px;
+    
+}
+.flat{
+    padding-bottom:4px;
+    margin-top:-4px;
+}
+.part5{
+    background-color:#C8F9E5;
+    border-radius:6px;
+    color:#1BA672;
+    font-weight:600;
+    font-size:0.8rem;
+    margin-left:5px;
+    margin-right:7px;
+    margin-bottom: 2px;;
+    padding:4px;
+}
+.one2{
+    padding:8px 12px 12px;
+}
+.part3{
+    background-color:rgb(245, 243, 243);
+    border-radius: 10px;
+    margin-left:10px;
+    margin-right:235px;
+    padding-left:7px;
+    font-size:0.7rem;
+    margin-top:-4px;
+    margin-bottom:8px;
+}
+.rs{
+    margin-left:110px;
+    font-size:0.8rem;
+    font-weight:500;
+}
+.con{
+    font-size:0.8rem;
+    font-weight:500;
+}
+.sector{
+    font-size:0.8rem;
+    font-weight:500;
+}
+.km{
+    font-size:0.8rem;
+    margin-left:130px;
+    font-weight:500;
+}
