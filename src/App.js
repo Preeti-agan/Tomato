@@ -13,10 +13,10 @@ function App() {
   return (
     <>
     <Home/>
-    <Services/>
-    <About/>
     <Items/>
     <Instamart/>
+    <Services/>
+    <About/>
     <City></City>
     <Grocery/>
     <Footer></Footer>
