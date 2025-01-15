@@ -1,148 +1,141 @@
-
 /* home css */
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Lilita+One&family=Merienda:wght@300..900&family=Russo+One&family=Signika+Negative:wght@300..700&family=Special+Elite&display=swap');
-.main{
-    background-color: rgb(255,82,0);
-    width:1670.33px;
-    align-items:center;
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Lilita+One&family=Merienda:wght@300..900&family=Russo+One&family=Signika+Negative:wght@300..700&family=Special+Elite&display=swap");
+.main {
+  background-color: rgb(255, 82, 0);
+  width: 100%;
+  align-items: center;
 }
-.body{
-    overflow-x: hidden;
+.body {
+  overflow-x: hidden;
 }
-.section1{
-    padding-top:14px;
-    
+.section1 {
+  padding-top: 14px;
 }
-.swiggy{
-    margin:0;
-    padding-top:20px;
-    padding-bottom: 20px;;
-    margin-left:140px;
-    width:168px;
-    height:48px;
+.swiggy {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 140px;
+  width: 168px;
+  height: 48px;
 }
-.corporate{
-color:#FFFF;
-text-decoration:none;
-margin-left:220px;
-font-family: "Lilita One", serif;
+.corporate {
+  color: #ffff;
+  text-decoration: none;
+  margin-left: 220px;
+  font-family: "Lilita One", serif;
   font-weight: 400;
   font-style: normal;
- }
-
-.partner{
-    color:#FFFF;
-    font:16px Gilroy;
-    text-decoration:none;
-    margin-left:31px;
-    font-family: "Lilita One", serif;
-    font-weight: 400;
-    font-style: normal;
-  
-    
 }
 
-
-.get{
-    padding:12px 16px;
-    margin-left:31px;
-    background-color:rgb(255,82,0);
-    color:#FFFF;
-    border-radius:10px;
-    border:solid 1px;
-    border-color: #FFFF;
-    font-size:1.1rem;
-    font-family: "Lilita One", serif;
+.partner {
+  color: #ffff;
+  font: 16px Gilroy;
+  text-decoration: none;
+  margin-left: 31px;
+  font-family: "Lilita One", serif;
   font-weight: 400;
   font-style: normal;
-  margin-top:-900px;
-  padding-left:23px;
-  padding-right:23px;
-  padding-top:16px;
-  padding-bottom:16px;
-
 }
-.sign{
-    background-color: #000000;
-    color:#FFFF;
-    padding:15px;
-    padding-left:35px;
-    padding-right:35px;
-    margin-left:31px;
-    border-radius:13px;
-    border:solid 1px black;
-    font-family: "Lilita One", serif;
+
+.get {
+  padding: 12px 16px;
+  margin-left: 31px;
+  background-color: rgb(255, 82, 0);
+  color: #ffff;
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: #ffff;
+  font-size: 1.1rem;
+  font-family: "Lilita One", serif;
   font-weight: 400;
   font-style: normal;
-  font-size:1rem;
-    
+  margin-top: -900px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-.nav{
-    display:flex;
-    justify-content: space-around;
+.sign {
+  background-color: #000000;
+  color: #ffff;
+  padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-left: 31px;
+  border-radius: 13px;
+  border: solid 1px black;
+  font-family: "Lilita One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
 }
-.two{
-    margin-top:25px;
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.two {
+  margin-top: 25px;
 }
 /* section2 css */
-.section2{
-    display:flex;
+.section2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-.order{
-    color:#FFFF;
-    letter-spacing:-0.3px;
-    font-size:3rem;
-    padding-top:24px;
-    text-align:center;
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-
-
+.order {
+  color: #ffff;
+  letter-spacing: -0.3px;
+  font-size: 3rem;
+  padding-top: 24px;
+  text-align: center;
+  width: 70%;
+}
 
 /* section3 css */
-.section3{
-    display:flex;
-    margin-top:-300px;
-   justify-content:center;
-   
-    
+.section3 {
+    display: flex;
 }
-.btn1{
-    color:grey;
-    background-color:white;
-    border:solid 2px rgb(216, 207, 207);
-    border-radius:10px;
-    /* margin-left:230px; */
-    padding:17px;
-    font-size:1.1rem;
-    
+.btn1 {
+  color: grey;
+  background-color: white;
+  border: solid 2px rgb(216, 207, 207);
+  border-radius: 10px;
+  /* margin-left:230px; */
+  padding: 17px;
+  font-size: 1.1rem;
 }
-.btn2{
-    color:grey;
-    background-color:white;
-    border:solid 2px rgb(216, 207, 207);
-    border-radius:10px;
-    margin-left:10px;
-    padding:17px;
-    
+.btn2 {
+  color: grey;
+  background-color: white;
+  border: solid 2px rgb(216, 207, 207);
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 17px;
 }
-.location{
-    margin-right:8px;
-    margin-top:1px;
+.location {
+  margin-right: 8px;
+  margin-top: 1px;
 }
-.arrow{
-    margin-left:8px;
+.arrow {
+  margin-left: 8px;
 }
-.search{
-    margin-left:170px;
+.search {
+  margin-left: 170px;
 }
 
 /* section4 css */
-.section4{
-    display:flex;
-    /* margin-left:130px; */
-    margin-top:40px;
-    justify-content:center;
-    
+.section4 {
+  display: flex;
+  /* margin-left:130px; */
+  margin-top: 40px;
+  justify-content: center;
 }
 
 /* @media only screen and (max-width: 768px) {
